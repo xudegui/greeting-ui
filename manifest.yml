@@ -8,3 +8,6 @@ applications:
   - cloud-bus
   - service-registry
   - circuit-breaker-dashboard
+  env:
+    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
+    TRUST_CERTS: api.run.pivotal.io
